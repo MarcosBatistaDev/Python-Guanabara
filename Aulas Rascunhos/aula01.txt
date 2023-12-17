@@ -1,0 +1,20 @@
+Tipos primitivos python
+
+bool = True ou False
+str = string - Texto
+int = números inteiros - 1,2,3,4 etc.
+float = numeros com vírgula - 2.3,0.04,7.0 etc.
+
+comandos
+
+print = mostra na tela
+input = recebe um valor
+
+= recebe
+== é igual
+or = ou
+and = e 
+
++ - * / // % = operadores aritiméticos
+
+
