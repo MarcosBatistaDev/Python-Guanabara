@@ -1,0 +1,27 @@
+# Operadores aritméticos
+
++ = adição
+- = subtração
+* = multiplicação
+/ = divisão
+** = potência
+// = divisão inteira
+% = resto da divisão
+
+-- Raiz quadrada = x ** (1/2) | Raiz Cubica = x ** (1/3) etc...
+
+# Ordem de precedência
+1. ()
+2. **
+3. * / // %
+4. + -
+
+# concatenando valores
+
+"teste" * 3 == "testetesteteste"
+print("{:=>10}".format("valores")) - Alinhado a direita em 10 espaços com iguais em volta
+print("{:=<10}".format("valores")) - Alinhado a esquerda em 10 espaços com iguais em volta
+print("{:=^10}".format("valores")) - centralizado em 10 espaços com iguais em volta
+
+## quebras de linha
+end="" ou \n
