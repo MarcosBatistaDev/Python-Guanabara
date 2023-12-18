@@ -1,0 +1,12 @@
+comandos para importar bibliotecas
+
+from (de) math (biblioteca/lib/library) import (importe) sqrt (comando para calcular raiz quadrada que so tem nessa lib)
+
+libs comuns
+
+math - comandos matemáticos
+random - biblioteca de randomização e afins
+time - lib de manipulação de tempo
+datetime - lib de manipulação de datas e hora
+
+obs: algumas libs vem instaladas na sua maquina mas a maioria não, caso dê erro ao importar provavelmente a lib n está instalada em sua máquina.
