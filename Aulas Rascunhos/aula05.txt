@@ -1,0 +1,41 @@
+# Condições simples e compostas
+
+if - se 
+else - se não
+
+if a:
+    bloco verdadeiro
+else:
+    bloco falso
+
+## exemplo
+
+tempo = int(input('Quantos anos tem seu carro: '))
+if tempo <= 3:
+    print('carro novo')
+else:
+    print('carro velho')
+print('fim')
+
+ou
+
+tempo = int(input('Quantos anos tem seu carro: '))
+print('carro novo' if tempo <= 3 else 'carro velho') # Condição simplificada, quase um operador ternário
+
+## Condição simples - somente com if
+nome = str(input('Qual seu nome: '))
+if nome == 'Marcos':
+    print('O miór')
+print(f'Bom dia, {nome}')
+
+## Condição composta
+nome = str(input('Qual seu nome: '))
+if nome == 'Marcos':
+    print('O miór')
+else:
+    print('Que nome normal')
+print(f'Bom dia, {nome}')
+
+
+
+
