@@ -1,0 +1,38 @@
+# Manipulacão de strings
+frase = 'Curso em video python' - essa string tem 21 indices contando de 0 até 20, sendo 0 = C e 20 = n
+
+## Fatiamento de strings
+
+frase[9] = v
+frase[9:13] = vide
+frase[9:21] = video python - ele ignora o ultimo indice
+frase[9:21:2] = vdopto
+frase[:5] = Curso - do 0 até o 5
+frase[15:] = python - do 15 até o fim
+frase[9::3] = veph - do 9 até o fim pulando de 3 em 3
+
+## Análise de strings
+
+len(frase) = 21
+frase.count('o') = 3 - retorna o valor de 'o' minúsculo encontrados na frase
+frase.count('o', 0, 13) = 1 - retorna somente os 'o' minúsculos encontrados no intervalo de indice 0 a 12 (ele ignora o ultimo indice - 13)
+frase.find('deo') = 11 - retorna o inicio da ocorrencia de 'deo' ou seja, onde comeca o 'deo' - no indice 11
+frase.find('android') = -1 -> -1 significa que não foi encontrado a palavra android no frase, logo não existe ocorrencia == -1
+
+##- operador 'in'
+
+'Curso' in frase = True - retorna valor booleano verdadeiro, pois existe a palavra Curso na frase
+
+## Transformacão
+
+frase.replace('python', 'android') = 'Curso em video android' - o método replace ira capturar o python e substituir pela frase android
+frase.upper() = CURSO EM VIDEO PYTHON - transforma o texto para maiúsculo
+frase.lower() = curso em vide python - transforma para minúsculo
+frase.capitalize() = ira deixar a frase minúscula e so deixará a primeira letra maiúscula
+frase.title() = vai deixar as primeiras letras de cada palavra maiúscula = Curso Em Video python
+frase.strip() = remove os espacos do inicio e do fim das frases
+frase.rstrip() = remove os espacos da direita
+frase.lstrip() = remove os espacos da esquerda
+frase.split() = separa as palavras em uma lista = Curso em video python - se torna = [[curso][em][video][python]]
+>>>>> '-'.join(frase) = curso-em-video-python - ele junta os valores splitados usando o '-'
+
