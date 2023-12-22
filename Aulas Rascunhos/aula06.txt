@@ -1,0 +1,9 @@
+# cores no terminal
+
+-- ANSI - escape sequence
+\033[m
+- style - 0 - none, 1 - negrito, 4 - underline, 7 - negative
+- text - 30, 31, 32, 33, 34, 35, 36 ,37
+- background - 40, 41, 42, 43, 44, 45, 46, 47
+
+\033[0;33;44m
