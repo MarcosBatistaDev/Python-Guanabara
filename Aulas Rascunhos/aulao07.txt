@@ -1,0 +1,3 @@
+# condicões aninhadas
+
+if elif e else - se, se não se, senão
