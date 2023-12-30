@@ -1,0 +1,5 @@
+Estrutura de repeticão while
+
+for - estrutura de repeticao com variável de controle
+while - estrutura de repeticão com teste lógico
+flag de parada - while != 3...
