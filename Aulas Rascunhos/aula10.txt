@@ -1,0 +1,2 @@
+lacos de repeticão - parte 3
+while True e Break
