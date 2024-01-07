@@ -1,0 +1,8 @@
+Váriaveis compostas - Listas, Tuplas e Dicionários
+
+## Tuplas - São imutáveis
+tupla = ('Teste1', 'Teste2', 'Teste3')
+print(tupla[0]) = Teste1
+print(tupla[0:]) = Teste1, Teste2, Teste3
+print(tupla[-1]) = Teste3
+print(tupla[-3]) = Teste1
