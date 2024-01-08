@@ -1,0 +1,28 @@
+Váriaveis compostas - listas pt 1
+tuplas () - são imutáveis.
+listas [] - listas são mutáveis.
+
+append('valor') - vai adicionar um item ao fim da lista
+
+insert(0, 'item') - adiciona um item na posicão 0 da lista
+
+del lista[3] - apaga o item de indice 3 na lista
+lanche.pop(3) - msm coisa
+lanche.remove('item') - apaga o item da lista
+lanche.pop() - apaga o ultimo item da lista
+
+valores = list(range(4, 11)) - cria uma lista numérica de 4 até 10
+
+sorted - organiza tuplas 
+valores.sort() - organiza listas
+valores.sort(reverse=True) - organiza a lista ao contrário
+len(valores) - retorna os 7 elementos da lista [4, 5, 6, 7, 8, 9, 10]
+
+a = [1, 2, 3]
+b = a
+
+isso cria uma ligacao e nao uma cópia
+para criar uma copia devemos
+
+b = a[:]
+
