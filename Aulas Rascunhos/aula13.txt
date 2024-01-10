@@ -1,0 +1,17 @@
+variáveis compostas pt 2 - listas
+dados = list()
+dados.append('Pedro')
+dados.append(25)
+== ['Pedro', 25]
+
+pessoas = list()
+pessoas.append(dados[:])
+
+== pessoas == [['Pedro', 25]]
+pessoas = [['pedro', 25], ['lucas', 12]]
+print(pessoas[0][0]) == Pedro
+pessoas[1] = lucas, 12
+pessoas[1][0] = lucas
+
+comando clear() limpa a lista
+sempre faer cópia de uma lista para outra usando [:]
