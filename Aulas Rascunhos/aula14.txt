@@ -1,0 +1,30 @@
+Dicionários
+
+tuplas - ()
+listas - []
+Dicionário - {}
+
+dados = dict()
+dados = {'nome':'Pedro', 'idade', 25}
+Print(dados['nome']) -- Pedro
+Print(dados['idade']) -- 25
+
+dados['sexo'] = 'm'
+
+remover elementos - del
+del dados['idade']
+
+filme = {
+    'título':'Star Wars',
+    'ano':1977,
+    'diretor':'George Lucas'
+}
+
+Print(filme.values()) - Satr wars, 1977, George Lucas
+Print(filme.keys()) - Titulo, ano, diretor
+Print(filme.items()) - pega os 2
+
+for k, v in filme.items():
+    Print(f'O {k} é {v}')
+
+para fazer a copia do conteudo usa o append(teste.copy())
