@@ -2,7 +2,7 @@
 
 jogador_dados = dict()
 jogador_dados['nome'] = str(input('Nome: ')).strip().title()
-num_partidas = int(input(f'Quantas partidas o {jogador_dados["nome"]} jogou: : '))
+num_partidas = int(input(f'Quantas partidas o {jogador_dados["nome"]} jogou: '))
 gols = list()
 for c in range(0, num_partidas):
     gols.append(int(input(f'Quantos gols na {c+1}ª partida: ')))
